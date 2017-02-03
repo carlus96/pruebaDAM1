@@ -21,8 +21,8 @@ public class PruebaGitHub {
         Scanner leer = new Scanner(System.in);
         int num,num1;
         Random rnd = new Random();
-        System.out.println("Adivine el número: ");
-        num1 = rnd.nextInt(0+10);
+        System.out.println("Adivine el número entre el 1 y el 10: ");
+        num1 = rnd.nextInt(1+10);
         do{
             num = leer.nextInt();
             if(num==num1)
